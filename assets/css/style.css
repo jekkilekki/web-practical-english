@@ -1,0 +1,184 @@
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}
+
+.screen-reader-text:focus {
+  background-color: #eee;
+  clip: auto !important;
+  clip-path: none;
+  color: #444;
+  display: block;
+  font-size: 1em;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000; /* Above WP toolbar. */
+}
+
+body {
+	font-family: "Merriweather Sans", sans-serif;
+	font-weight: 300;
+}
+hr {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+a {
+	color: #4f80bf;
+}
+.button {
+	color: white;
+	background: #4f80bf;
+}
+.hidden {
+	display: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.menu-text {
+	font-family: Oswald, sans-serif;
+}
+h1 {
+	padding-bottom: 1.5rem;
+}
+h2 {
+	padding-bottom: 1.2rem;
+}
+h3 {
+	padding-bottom: 1rem;
+}
+img {
+	display: block;
+}
+form textarea {
+	height: 100px;
+}
+.top-bar .menu a {
+	/*color: black;*/
+}
+.copy {
+	/* border: none; */
+	margin-bottom: 0;
+	margin-top: -1rem;
+	text-align: right;
+}
+.cta-buttons {
+	text-align: center;
+}
+.download-btn {
+	width: 300px;
+	max-width: 100%;
+}
+#writing1 .fa {
+	color: #95b3d8;
+}
+#writing .fa {
+	color: #aaccbb;
+}
+.fa-exclamation-triangle {
+	color: #ec5840;
+}
+#reading1 h1 {
+	text-align: center;
+	font-weight: 300;
+}
+.intro { 
+	margin-bottom: 0;
+}
+.tabs {
+	width: 352px;
+	margin: 0 auto;
+	border: none;
+}
+.tabs-content {
+	border-top: 1px solid gainsboro;
+	border-bottom: 0;
+	padding-top: 3rem;
+	/*padding-bottom: 3rem;*/
+}
+.authors {
+	padding-top: 3rem;
+}
+.order {
+	margin-top: 3rem;
+}
+.order .row {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+.mail {
+	text-align: center;
+	padding: 1rem;
+	border: 2px solid;
+}
+.sent {
+	background: rgba(152, 193, 175, 0.3);
+	border-color: #98C1AF;
+}
+.unsent {
+	background: rgba(236,88,64,0.3);
+	border-color: #ec5840;
+}
+@media screen and (min-width: 64em) { /* Large and up */
+	.cta-buttons {
+		text-align: left;
+		margin-left: -0.9375rem!important;
+	}
+	.media-object-section img {
+		max-width: 150px;
+	}
+}
+@media screen and (min-width: 40em) { /* Medium and up */
+	.row { 
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+}
+@media screen and (max-width: 39.9375em) { /* Small only */
+	.tabs {
+		width: 265px;
+	}
+	.media-object {
+		position: relative;
+	}
+	.media-object.stack-for-small .media-object-section {
+		padding-bottom: 0;
+	}
+	.stack-for-small span {
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+	}
+	.stack-for-small img {
+		max-width: 200px;
+		margin: 0 auto;
+	}
+	.stack-for-small h5 {
+		padding-top: 210px;
+	}
+	footer strong {
+		margin: 0 auto;
+		display: block;
+		text-align: center;
+	}
+}
