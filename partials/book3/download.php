@@ -1,7 +1,7 @@
 <div class="order">
   <div class="row">
     <div class="medium-8 columns">
-      <a name="order"></a>
+      <a name="download3"></a>
       <h3>Download the book here!</h3>
       <p>This download includes the entire PDF book at its smallest file size - ideal for sticking on your USB and using it in class.</p>
       <p class="lead">File size: <strong>3.5MB</strong></p>
